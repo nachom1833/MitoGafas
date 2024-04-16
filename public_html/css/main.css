@@ -171,23 +171,22 @@ ul li {
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
 }
-#header .img{
-	float: left;
+#header .logo img{
+	/*float: left;*/
 	max-width: 1300px;
 	width: 100%;
 	max-width: 20vw;
-	margin-top: -6cap;
+	margin-top: -5cap;
 	
 }
-.logo  img {
+#header .logo span {
     font-weight: 400;
     font-family: monospace;
     letter-spacing: 0px;
-    
-    margin-top: -4cap !important;
-  
-	
-} 
+    font-size: 22px;
+    margin-left: -20px;
+    color: #fff;
+}
 #header.fixed {
 	max-height: 160px;
 	background-color: #23232385;

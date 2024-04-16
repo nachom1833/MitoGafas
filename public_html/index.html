@@ -11,6 +11,7 @@
   <meta name="description" content="" />
   <meta name="author" content="webthemez" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title>@mitogafas</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/flexslider.css" />
@@ -31,8 +32,8 @@
     <header id="header">
 
       <div class="header-content clearfix" style="margin: 0%;">
-        <a class="logo" href="index.html"><img class="img-responsive col-md-3 , col-lg-3 , col-xs-4 " alt="Responsive image" src="./images/logo - fondo rasgado.png" alt=""></a>
-        <nav class="navigation col col-md-9 , col-lg-9 , col-xs-8" role="navigation">
+        <a class="logo" href="index.html"><img src="./images/logo - fondo rasgado.png" alt=""></a>
+        <nav class="navigation" role="navigation">
           <ul class="primary-nav">
             <li><a href="#home">INICIO</a></li>
             <li><a href="#intro">MITO</a></li>
@@ -485,29 +486,30 @@
   <!-- contact section -->
   <section id="contact" class="section">
     <div class="container">
-      <div class="section-header">
-        <h2 class="wow fadeInDown animated">Contactanos</h2>
-        <p class="wow fadeInDown animated">
-          Envianos tus dudas, consultas y sugerencias. A la mayor brevedad posible te responderemos.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2 conForm">
-          <div id="message"></div>
-          <form method="post" action="./php/contact.php" name="cform" id="cform">
-            <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
-              placeholder="Tu nombre..." />
-            <input name="email" id="email" type="email" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr"
-              placeholder="Dirección de email..." />
-            <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
-              placeholder="Comentario..."></textarea>
-            <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar" />
-            <div id="simple-msg"></div>
-          </form>
+        <div class="section-header">
+            <h2 class="wow fadeInDown animated">Contactanos</h2>
+            <p class="wow fadeInDown animated">
+                Envianos tus dudas, consultas y sugerencias. A la mayor brevedad posible te responderemos.
+            </p>
         </div>
-      </div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 conForm">
+                <div id="message"> </div>
+                <form method="post" action="php/contact.php" name="cform" id="cform">
+                    <input name="nombre" id="nombre" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
+                        placeholder="Tu nombre..." />
+                    <input name="email" id="email" type="email" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr"
+                        placeholder="Dirección de email..." />
+                    <textarea name="mensaje" id="mensaje" cols="" rows=""
+                        class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Comentario..."></textarea>
+                    <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar" />
+                    <div id="simple-msg"></div>
+                 
+                </form>
+            </div>
+        </div>
     </div>
-  </section>
+</section>
   <!-- contact section -->
   <!-- Footer section -->
   <footer class="footer" >
