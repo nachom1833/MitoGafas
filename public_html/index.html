@@ -32,16 +32,17 @@
     <header id="header">
 
       <div class="header-content clearfix" style="margin: 0%;">
-        <a class="logo" href="index.html"><img src="./images/logo - fondo rasgado.png" alt=""></a>
+        <a href="index.html" target="_top" class="logo"><img src="./images/logo - fondo rasgado.png" alt="" width="100%"></a>
         <nav class="navigation" role="navigation">
           <ul class="primary-nav">
             <li><a href="#home">INICIO</a></li>
             <li><a href="#intro">MITO</a></li>
             <li><a href="#services">NOS DEFINE</a></li>
             <li><a href="#content-3-10">NOSOTROS</a></li>
-            <li><a href="#Presentacion">Presentacion</a></li>
+            <li><a href="#Presentacion">PRESENTACION</a></li>
             <li><a href="#gallery">GALERIA</a></li>
-            <li><a href="#teams">Materiales</a></li>
+            <li><a href="#teams">MATERIALES</a></li>
+			 <li><a href="#testimonials">CLIENTES</a></li>
             <li><a href="#contact">CONTACTO</a></li>
             <!-- <li><a href="#footer">Dirección</a></li> -->
           </ul>
@@ -55,7 +56,7 @@
       <div id="carousel-example-generic" class="carousel slide carousel-fade">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4" class="active"></li>
           <li data-target="#carousel-example-generic" data-slide-to="1"></li>
           <li data-target="#carousel-example-generic" data-slide-to="2"></li>
           <li data-target="#carousel-example-generic" data-slide-to="3"></li>
@@ -157,7 +158,7 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 services text-center">
-          <span><img style="width: 90px;" src="./images/calidad.jpg" alt=""></span>
+          <span><img style="width: 90px;" src="images/calidad.png" alt=""></span>
           <div class="services-content">
             <h5>Calidad</h5>
             <p>
@@ -167,7 +168,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 services text-center">
-          <span><img style="width: 90px; ;" src="./images/gafas-de-sol.jpg" alt=""></span>
+          <span><img style="width: 90px; ;" src="images/gafas-de-sol.png" alt=""></span>
           <div class="services-content">
             <h5>estilo</h5>
             <p>
@@ -177,7 +178,7 @@
           </div>
         </div>
         <div class="col-md-4 col-sm-6 services text-center">
-          <span><img style="width: 90px;" src="./images/servicio-al-cliente.jpg" alt=""></span>
+          <span><img style="width: 90px;" src="images/servicio-al-cliente.png" alt=""></span>
           <div class="services-content">
             <h5>Servicio</h5>
             <p>
@@ -484,61 +485,27 @@
   <!-- Testimonials section -->
 
   <!-- contact section -->
-  <section id="contact" class="section">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="wow fadeInDown animated">Contactanos</h2>
-            <p class="wow fadeInDown animated">
-                Envianos tus dudas, consultas y sugerencias. A la mayor brevedad posible te responderemos.
-            </p>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 conForm">
-                <div id="message"> </div>
-                <form method="post" action="php/contact.php" name="cform" id="cform">
-                    <input name="nombre" id="nombre" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12"
-                        placeholder="Tu nombre..." />
-                    <input name="email" id="email" type="email" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr"
-                        placeholder="Dirección de email..." />
-                    <textarea name="mensaje" id="mensaje" cols="" rows=""
-                        class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Comentario..."></textarea>
-                    <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar" />
-                    <div id="simple-msg"></div>
-                 
-                </form>
+<section id="contact" class="section">
+  <div class="container">
+      <div class="section-header">
+                <h2 class="wow fadeInDown animated">Contáctanos</h2>
+                <p class="wow fadeInDown animated">Envíanos tus dudas, consultas y sugerencias. <br> Te responderemos a la mayor brevedad posible</p>
             </div>
-        </div>
-    </div>
-</section>
-  <!-- contact section -->
-  <!-- Footer section -->
-  <footer class="footer" >
-    <div class="container-fluid">
-      <div id="map-row" class="row">
-        <div class="col-xs-12">
-          <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.5060363332796!2d-58.789890124400735!3d-34.43930027301357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9f005a7b465b%3A0x28e347be6599a573!2sMitoGafas!5e0!3m2!1sen!2sar!4v1711133107606!5m2!1sen!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-          <div id="map-overlay" class="col-xs-5 col-xs-offset-6">
-            <h4 style="margin-top: 0; color: #fff">Dirección</h4>
-            <address style="color: #fff">
-              Provincia de Buenos Aires<br />
-              Colectora Este Ramal Pilar<br />
-              B1664 Manuel Alberti<br />
-              <abbr title="Phone">Tel:</abbr> (604) 555-4321
-            </address>
-            © 2024 mitogafas. All Rights Reserved.
-            <br /><a target="_blank" href="https://webthemez.com/tag/free" target="_blank"></a>
-
-          </div>
-        </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 conForm">       
+        <div id="message"></div>
+        <form id="contactForm" action="/php/contacto.php" method="post">
+          <input name="nombre" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Tu nombre" >
+          <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Tu email" >
+          <textarea name="mensaje" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Escribe tu mensaje...."></textarea>
+          <input type="submit" id="submit" name="send" class="submitBnt" value="Enviar">
+          <div id="simple-msg"></div>
+        </form>
       </div>
     </div>
-  </footer>
-
-  <!-- Footer section -->
+  </div>
+</section>
+<!-- contact section -->
   <!-- JS FILES -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

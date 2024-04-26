@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * @version 1.0
  */
@@ -48,7 +48,8 @@ $mail->AltBody = "{$mensaje} \n\n Formulario de ejemplo By DonWeb"; // Texto sin
 
 $estadoEnvio = $mail->Send(); 
 if($estadoEnvio){
-    echo "El correo fue enviado correctamente.";
+    echo "<script>alert('El correo fue enviado correctamente.');</script>";
+    echo "<script>window.location.href = 'index.html';</script>";
 } else {
     echo "Ocurrió un error inesperado.";
 }

@@ -174,9 +174,9 @@ ul li {
 #header .logo img{
 	/*float: left;*/
 	max-width: 1300px;
-	width: 100%;
-	max-width: 20vw;
-	margin-top: -5cap;
+	width:clamp(15rem, 11.364rem + 18.18vw, 20rem);
+	
+	
 	
 }
 #header .logo span {
